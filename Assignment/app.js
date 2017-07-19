@@ -1,3 +1,4 @@
+import "babel-polyfill";
 import {testConstant} from './components/constant'
 import {testScoping} from './components/scoping'
 import {testenhanced} from './components/enhanced_object'
@@ -6,6 +7,10 @@ import {add, userFriends, printCapitalNames} from './components/extended_paramet
 import {testTemplate} from './components/template_liberal'
 import {arrDestrcut, objDestruct} from './components/destruct'
 import {getTotalCashInBank} from './components/classdemo'
+import {getFibonacciNumeber} from './components/symbol'
+import {getNextArmstrongNumber} from './components/iterator'
+import {getArmstrongNumber} from './components/generator'
+import {testChatRoom} from './components/chatroom'
 
 //testConstant();
 //testScoping();
@@ -23,4 +28,10 @@ import {getTotalCashInBank} from './components/classdemo'
 //arrDestrcut();
 //objDestruct();
 
-getTotalCashInBank();
+//getTotalCashInBank();
+
+//getFibonacciNumeber();
+//getNextArmstrongNumber();
+//getArmstrongNumber();
+
+testChatRoom();
